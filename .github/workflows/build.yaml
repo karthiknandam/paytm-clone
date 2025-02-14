@@ -11,7 +11,7 @@ jobs:
     environment: secret_action 
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      PROVIDER: ${{ secrets.PROVIDER }}
+      provider: ${{ secrets.PROVIDER }}
     steps:
       - uses: actions/checkout@v3
 
