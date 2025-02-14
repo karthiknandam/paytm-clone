@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: secret_action 
+    environment: secret_action
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
       provider: ${{ secrets.PROVIDER }}
